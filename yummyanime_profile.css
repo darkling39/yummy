@@ -1,0 +1,339 @@
+.header{
+    position: absolute;
+    top:0;
+    left: 0;
+    margin: 0;
+    height: 150px;
+    width: 100%;
+    background-image:url(https://yummyanime.club/img/top15.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    z-index: -1;
+}
+
+/* Менюшечка */
+.header__inner{
+    position: absolute;
+    right: 310px;
+    top:25px;
+    margin: 0;
+    padding:0;
+}
+.nav__link{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    display:block;
+    border-left: 1px solid #fff;
+    background-color: #39bc71;
+    float: left;
+    padding: 11px 30px;
+    font-size: 25px;
+}
+
+.nav__link:first-child{
+    width: 135px;
+    border: unset;
+    height: 45px;
+    position: relative;
+    padding: 5px 0 0 0;
+    font-size: 18px;
+    text-align: center;
+}
+.nav__link:first-child::after{
+    content: " профиль";
+    font-size: 13px;
+    position: absolute;
+    top:30px;
+    left: 43px;
+    opacity: .9;   
+}
+
+
+/* Logo */
+
+.logo{
+    position: absolute;
+    background-image: url(https://yummyanime.club/img/snowflakes.jpg);
+    height: 65px;
+    width: 100%;
+    top:150px;
+    left:0;
+    border: 3px solid #ff6666;
+    border-left: unset;
+    border-right: unset;
+}
+.image{
+
+    position: absolute;
+    top: -10px;
+    left: 305px;
+    border-radius: 10px;
+}
+.logo__img{
+    border-radius: 10px;
+}
+.name{
+    color: #fff;
+    font-size: 23px;
+    position: absolute;
+    left: 400px;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+.subname{
+    font-size: 16px;
+    margin-top: 12px;
+}
+#heart{
+    color: #ff6766;
+}
+
+
+/* Правая менюшка */
+.mainmenu{
+    display: block;
+    width: 820px;
+    height: 65px;
+    position: absolute;
+    top:153px;
+    right: 310px;
+ 
+}
+.mainmenu__ul{
+    list-style: none;
+    height: 65px;
+    width: 820px;
+    margin: 0;
+    padding: 0;
+}
+.mainmenu__li{
+float: left;
+}
+.mainmenu__link{
+    text-transform: uppercase;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 25px 12px 25px 12px;
+    position: relative;
+  }
+  .mainmenu__link:hover{
+      background-color: #ff6666;
+      transition: .2s;
+  }
+#third{
+    position: relative;
+}
+#third:after{
+    content: "аниме";
+    font-size: 13px;
+    position: absolute;
+    top:40px;
+    left:30px;
+    text-transform: none;
+    opacity: .9;
+}
+#fourth{
+    position: relative;
+}
+#fourth:after{
+    content: "аниме";
+    font-size: 13px;
+    position: absolute;
+    top:40px;
+    left:30px;
+    text-transform: none;
+    opacity: .9;
+}
+#fiveth{
+    position: relative;
+}
+#fiveth:after{
+    content: "аниме";
+    font-size: 13px;
+    position: absolute;
+    top:40px;
+    left:45px;
+    text-transform: none;
+    opacity: .9;
+}
+#seventh{
+    position: relative;
+}
+#seventh:after{
+    content: "аниме";
+    font-size: 13px;
+    position: absolute;
+    top:40px;
+    left:23px;
+    text-transform: none;
+    opacity: .9;
+}
+
+
+/* Субтаблицы */
+.sub__ul{
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+.sub__link{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    background-color: #222222;
+    width: 200px;
+    text-align: left;
+    border-bottom: 1px solid #444444;
+    font-size: 17px;
+    padding: 7px;
+    z-index: -1;
+}
+.sub__li:last-child{
+    border-bottom: 4px solid #acadad;
+    z-index: -1;
+}
+.mainmenu__li:hover .sub__ul{
+  opacity: 1;
+  transition: 0.1s;
+  z-index: 20;
+}
+.sub__link:hover{
+    background-color: #555555;
+    transition: 0.2s;
+}
+
+
+/* Main */  
+.main__info{
+    content: "";
+    display: block;
+    position: relative;
+    width: 100%;
+    max-width: 1290px;
+    height: 3000px;
+    margin: 220px auto;
+    z-index: 2;
+
+}
+/* Профиль */
+
+.input{
+    background-color: #333333;
+    border: 1px solid #444444;
+    height: 50px;
+    width: 100%;
+    max-width: 1273px;
+    padding-left: 15px;
+    color: #fff;
+    outline: none;  
+    margin-top: 20px;
+}
+
+.your__profile{
+    display: block;
+    width: 100%;
+    max-width: 1020px;
+    height: 290px;
+    position: absolute;
+    left: 0;
+    margin-top: 15px;
+    background-color: #333333;
+    padding: 0;
+}
+.photo{
+    padding: 10px;
+}
+
+.greeting{
+    display: block;
+    width: 100%;
+    border-bottom: 3px solid #ff6666;
+    background-image: url(https://yummyanime.club/img/snowflakes.jpg);
+}
+#greeting{
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 15px;
+}
+.info__table{
+    height: 110px;
+    position: absolute;
+    top: 60px;
+    left: 220px;
+    width: 100%;
+    max-width: 800px;
+}
+.info__ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 110px;
+}
+.info__li{
+    padding: 5px;
+    color: #fff;
+}
+.info__li:last-child{
+    position: absolute;
+    top:0;
+    left: 300px;
+}
+.info__link{
+   color: #df4233;
+   display: block;
+   text-decoration: none;
+}
+
+/* Мое меню  */
+.my__menu{
+    content: "";
+    display: block;
+    width: 250px;
+    height: 290px;
+    background-color: #333333;
+    position: absolute;
+    left: 1040px;
+    margin-top: 15px;
+}
+
+.right__menu__ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.right__menu__li{
+    color: #fff;
+    display: block;
+    position: relative;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-bottom: 1px solid #444444;
+
+}
+.right__menu__link{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 10px;
+    padding-left: 45px;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+.right__menu__li:last-child{
+    border: unset;
+}
+#right{
+    position: absolute;
+    margin: 10px;
+    margin-left: 15px;
+}
+
+.right__menu__link:hover{
+    background-color: #444444;
+}
