@@ -12,44 +12,40 @@
 }
 
 /* Менюшечка */
-.header__inner{
-    position: absolute;
-    right: 310px;
-    top:25px;
-    margin: 0;
-    padding:0;
-}
-.nav__link{
+.side_menu{
     display: block;
-    color: #fff;
-    text-decoration: none;
-    display:block;
-    border-left: 1px solid #fff;
+    height: 50px;
+    width: 370px;
     background-color: #39bc71;
-    float: left;
-    padding: 11px 30px;
-    font-size: 25px;
-}
-
-.nav__link:first-child{
-    width: 135px;
-    border: unset;
-    height: 45px;
-    position: relative;
-    padding: 5px 0 0 0;
-    font-size: 18px;
-    text-align: center;
-}
-.nav__link:first-child::after{
-    content: " профиль";
-    font-size: 13px;
     position: absolute;
-    top:30px;
-    left: 43px;
-    opacity: .9;   
+    top: 15%;
+    right: 15.5%;
 }
-
-
+#name{
+    position: relative;
+    width: 130px;
+    height: 49px;
+    margin: 0;
+    display: table-cell;
+    border-right: solid 1px #fff;
+    text-align: center;
+    vertical-align: middle;
+}
+#darkling{
+ position: relative;
+ text-decoration: none;
+ color: #fff;
+ font-size: 19px;
+ top: -5px;
+ padding: 8px 31px 20px 31px;
+}
+#darkling::after{
+    content: "профиль";
+    font-size: 15px;
+    position: absolute;
+    top: 28px;
+    left: 37px;
+}
 /* Logo */
 
 .logo{
@@ -425,7 +421,7 @@ float: left;
 .futter{
     display: block;
     width: 100%;
-    height: 175px;
+    height: 155px;
     z-index: 1100;
     background-color: #333333;
     position: fixed;
