@@ -12,44 +12,53 @@
 }
 
 /* Менюшечка */
-.header__inner{
-    position: absolute;
-    right: 310px;
-    top:25px;
-    margin: 0;
-    padding:0;
-}
-.nav__link{
+.side_menu{
     display: block;
-    color: #fff;
-    text-decoration: none;
-    display:block;
-    border-left: 1px solid #fff;
+    height: 50px;
+    width: 372px;
     background-color: #39bc71;
-    float: left;
-    padding: 11px 30px;
-    font-size: 25px;
-}
-
-.nav__link:first-child{
-    width: 135px;
-    border: unset;
-    height: 45px;
-    position: relative;
-    padding: 5px 0 0 0;
-    font-size: 18px;
-    text-align: center;
-}
-.nav__link:first-child::after{
-    content: " профиль";
-    font-size: 13px;
     position: absolute;
-    top:30px;
-    left: 43px;
-    opacity: .9;   
+    top: 15%;
+    right: 15.5%;
 }
-
-
+#name{
+    position: relative;
+    width: 130px;
+    height: 49px;
+    margin: 0;
+    display: table-cell;
+    border-right: solid 1px #fff;
+    text-align: center;
+    vertical-align: middle;
+}
+#darkling{
+ position: relative;
+ text-decoration: none;
+ color: #fff;
+ font-size: 19px;
+ top: -5px;
+ padding: 8px 31px 20px 31px;
+}
+#darkling::after{
+    content: "профиль";
+    font-size: 15px;
+    position: absolute;
+    top: 28px;
+    left: 37px;
+}
+.inst{
+    display: inline-block;
+    margin: -2px;
+    font-size: 30px;
+    position: relative;
+    top: -47px;
+    left: 134px;
+    padding: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-right: solid 1px #fff;
+    color: #fff;
+}
 /* Logo */
 
 .logo{
@@ -57,7 +66,7 @@
     background-image: url(https://yummyanime.club/img/snowflakes.jpg);
     height: 65px;
     width: 100%;
-    top:150px;
+    top:145px;
     left:0;
     border: 3px solid #ff6666;
     border-left: unset;
@@ -96,7 +105,7 @@
     width: 820px;
     height: 65px;
     position: absolute;
-    top:153px;
+    top:147px;
     right: 310px;
  
 }
@@ -215,7 +224,7 @@ float: left;
     width: 100%;
     max-width: 1290px;
     height: 3000px;
-    margin: 220px auto;
+    margin: 215px auto;
     z-index: 2;
 
 }
@@ -336,4 +345,109 @@ float: left;
 
 .right__menu__link:hover{
     background-color: #444444;
+}
+
+
+
+/* Нижний слайдер */
+
+
+.slider{
+    width: 100%;
+    position: relative;
+    top: 300px;
+    background-color: #333333;
+    height: 100px;
+    padding: 0;
+    margin-top: 15px;
+}
+.slider__ul{
+    list-style: none;
+    margin-top: 15px;
+    padding: 0;
+    width: 100%;
+    border-bottom: 3px solid #ff6666;
+    background-image: url(https://yummyanime.club/img/snowflakes.jpg);
+}
+.slider__li{
+    display: inline-block;
+}
+.slider__link{
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 13px 25px;
+    margin-left: -5px;
+    font-size: 15px;
+}
+.slider__li:first-child{
+    background-color: #ff6666;
+}
+
+.slider__bot{
+    margin-top: -5px;
+}
+
+.f-st__find{
+    background: #222;
+    width: 165px;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 5px;
+    font-size: 15px; 
+    margin-top: -5px;
+    margin-left: 12px;
+    border: 0.5px solid #444;
+    outline: none;  
+    color: #fff;
+}
+.link__bot{
+    display: inline-block;
+    position: relative;
+    top: 0;
+    background-color: #222;
+    border: 0.5px solid #444;
+    width: 230px;
+    height: 26px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #FFF;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 6px;
+    margin-left: 30px;
+}   
+.link__bot::before{
+    content: "или";
+    position: absolute;
+    left: -28px;
+}    
+.link__bot:last-child{
+    margin-left: 120px;
+}
+#t-rd::before{
+    content: "и сортировать по ";
+    position: absolute;
+    left: -120px;
+}
+.futter{
+    display: block;
+    width: 100%;
+    height: 155px;
+    z-index: 1100;
+    background-color: #333333;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.fuuter__p{
+    color: #fff;
+    font-size: 17px;
+    position: relative;
+    left: 315px;
+
+}
+.futter__link{
+    color: #df4233;
 }
