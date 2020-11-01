@@ -225,10 +225,9 @@ float: left;
     max-width: 1290px;
     height: 3000px;
     margin: 215px auto;
-    z-index: 2;
-
+    z-index: 2b;
+ 
 }
-/* Профиль */
 
 .input{
     background-color: #333333;
@@ -241,196 +240,31 @@ float: left;
     outline: none;  
     margin-top: 20px;
 }
-
-.your__profile{
+/*Соайдер*/
+.top_slider{
     display: block;
-    width: 100%;
-    max-width: 1020px;
-    height: 290px;
-    position: absolute;
-    left: 0;
+    position: relative;
+    width: 100.2%;
+    height: 310px;  
     margin-top: 15px;
+    background-color: aquamarine;
+}
+.season{
+    position: relative;
     background-color: #333333;
-    padding: 0;
-}
-.photo{
-    padding: 10px;
-}
-
-.greeting{
-    display: block;
-    width: 100%;
-    border-bottom: 3px solid #ff6666;
-    background-image: url(https://yummyanime.club/img/snowflakes.jpg);
-}
-#greeting{
-    display: block;
     color: #fff;
+    width: 100%;
+    height: 45px;
+    border-bottom: solid 2px #ff6666;
     text-transform: uppercase;
+    text-align: center;
     font-size: 14px;
-    padding: 15px;
 }
-.info__table{
-    height: 110px;
-    position: absolute;
-    top: 60px;
-    left: 220px;
-    width: 100%;
-    max-width: 800px;
-}
-.info__ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    height: 110px;
-}
-.info__li{
-    padding: 5px;
-    color: #fff;
-}
-.info__li:last-child{
-    position: absolute;
-    top:0;
-    left: 300px;
-}
-.info__link{
-   color: #df4233;
-   display: block;
-   text-decoration: none;
-}
-
-/* Мое меню  */
-.my__menu{
-    content: "";
-    display: block;
-    width: 250px;
-    height: 290px;
-    background-color: #333333;
-    position: absolute;
-    left: 1040px;
-    margin-top: 15px;
-}
-
-.right__menu__ul{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-.right__menu__li{
-    color: #fff;
-    display: block;
+#season{
     position: relative;
-    margin-left: 5px;
-    margin-right: 5px;
-    border-bottom: 1px solid #444444;
-
-}
-.right__menu__link{
-    text-decoration: none;
-    color: #fff;
-    display: block;
-    padding: 10px;
-    padding-left: 45px;
-    margin-left: -5px;
-    margin-right: -5px;
-}
-.right__menu__li:last-child{
-    border: unset;
-}
-#right{
-    position: absolute;
-    margin: 10px;
-    margin-left: 15px;
+    top: 15px;
 }
 
-.right__menu__link:hover{
-    background-color: #444444;
-}
-
-
-
-/* Нижний слайдер */
-
-
-.slider{
-    width: 100%;
-    position: relative;
-    top: 300px;
-    background-color: #333333;
-    height: 100px;
-    padding: 0;
-    margin-top: 15px;
-}
-.slider__ul{
-    list-style: none;
-    margin-top: 15px;
-    padding: 0;
-    width: 100%;
-    border-bottom: 3px solid #ff6666;
-    background-image: url(https://yummyanime.club/img/snowflakes.jpg);
-}
-.slider__li{
-    display: inline-block;
-}
-.slider__link{
-    display: inline-block;
-    color: #fff;
-    text-transform: uppercase;
-    text-decoration: none;
-    padding: 13px 25px;
-    margin-left: -5px;
-    font-size: 15px;
-}
-.slider__li:first-child{
-    background-color: #ff6666;
-}
-
-.slider__bot{
-    margin-top: -5px;
-}
-
-.f-st__find{
-    background: #222;
-    width: 165px;
-    height: 30px;
-    padding-left: 10px;
-    padding-right: 5px;
-    font-size: 15px; 
-    margin-top: -5px;
-    margin-left: 12px;
-    border: 0.5px solid #444;
-    outline: none;  
-    color: #fff;
-}
-.link__bot{
-    display: inline-block;
-    position: relative;
-    top: 0;
-    background-color: #222;
-    border: 0.5px solid #444;
-    width: 230px;
-    height: 26px;
-    text-decoration: none;
-    font-size: 16px;
-    color: #FFF;
-    text-align: left;
-    padding-left: 10px;
-    padding-top: 6px;
-    margin-left: 30px;
-}   
-.link__bot::before{
-    content: "или";
-    position: absolute;
-    left: -28px;
-}    
-.link__bot:last-child{
-    margin-left: 120px;
-}
-#t-rd::before{
-    content: "и сортировать по ";
-    position: absolute;
-    left: -120px;
-}
 .futter{
     display: block;
     width: 100%;
